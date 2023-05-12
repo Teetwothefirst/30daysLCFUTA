@@ -1,0 +1,295 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Pragati+Narrow:wght@700&display=swap');
+@import url('pragmatica-cufonfonts/Pragmatica.ttf');
+/* font-family: 'Playfair Display', serif;
+font-family: 'Pragati Narrow', sans-serif; 
+font-family: 'Encode Sans Semi Expanded', sans-serif;
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255,250,235);
+    position: relative;
+    top:0;
+    left:0;
+}
+header{
+    top: 0;
+    height: 150vh;
+    width: 99vw;
+    background-image: url(imgs/kelp.jpg);
+    background-color: rgb(0,0,0,0.8);
+    background-size: cover;
+}
+.wholetop{
+   background:rgb(47, 104, 50);
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   height: 90px;
+   /* margin-bottom: 50px; */
+}
+/* .firstimg{
+    background-image: url(imgs/kelp.jpg);
+    top: 0;
+    left: 0;
+    height: 600px;
+    width: 100%;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 1);
+} */
+.wholetop .logo img{
+    width: 180px;
+}
+.wholetop .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+}
+.wholetop a{
+    color: rgb(253, 193, 193);
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Pragati Narrow', sans-serif; 
+}
+.header-links{
+    width: 300px;
+    margin-right: 50px;;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.sellingpoint{
+    color: rgb(255,250,235);
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding-top: 50px;
+}
+main{
+    background: rgb(255,250,235);
+}
+/* .fourimages{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top:50px;
+    padding-top: 20px; 
+    padding-bottom: 10px;
+
+}
+.fourimages img{
+    padding-bottom: 20px;
+    border-width: 10px;
+    border-bottom: 2px solid rgb(77,97,75);
+    margin-right: 15px;
+    margin-left: 15px;
+} */
+.fourimages{
+    background: rgb(255,250,235);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+   padding-top: 10px;
+   padding-bottom: 10px ;
+
+}
+.line{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.line img{
+    margin-bottom: 10px;
+}
+.line hr{
+    color: rgb(242,196,105);
+}
+
+.about-us h3{
+   margin-left: 10px;
+    font-size: 20px;
+    /* font-family: 'Playfair Display', serif; */
+    color: rgb(77,97,75);
+}
+.about-us h1{
+    font-size: 70px;
+    color: rgb(77,97,75);
+    font-family:'Playfair Display', serif;
+}
+.about-us{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-bottom: 40px;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    margin-top: 50px;;
+}
+.wesell{
+    margin-left: 70px;
+}
+.crop{
+    width: 700px;
+    font-size: 20px;
+    color: rgb(77,97,75);
+   padding: 15px;
+}
+
+
+.boxA{
+    width: 60vw;
+    height: 100vh;
+    background-image: url("imgs/kelpbox1.jpg");
+    object-fit: contain;
+    margin-left: 5vw;
+
+}
+.boxAtext{
+    background: #619461;
+    width: 40vw;
+    height: 70vh;
+    position: relative;
+    top : 20vh;
+    left: 45vw;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 50px;
+    /* display: flex;
+    flex-direction:  column;
+    justify-content: space-around; */
+
+}
+.boxAtext h3{
+    font-size: 35px;
+    
+}
+.boxAtext p{
+    font-size: 18px;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+    margin-top: 20px;
+}
+.boxAtext a{
+    background: rgb(196, 147, 12);
+    text-decoration: none;
+    color: white;
+    position: inherit;
+    top: 50px;
+    left: 10px;
+    border-radius: 30px;
+    padding: 15px 25px;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-weight: 500;
+}
+
+.boxB{
+    margin-top: 30vh;
+    width: 60vw;
+    height: 100vh;
+    background-image: url("imgs/kelpbox2.jpg");
+    object-fit: contain;
+    margin-left: 30vw;
+
+}
+.boxBtext{
+    background: #619461;
+    width: 40vw;
+    height: 70vh;
+    position: relative;
+    top : 20vh;
+    right: 25vw;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 50px;
+}
+.boxBtext h3{
+    font-size: 40px;
+    
+}
+.boxBtext p{
+    font-size: 18px;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.boxBtext a{
+    background: rgb(196, 147, 12);
+    text-decoration: none;
+    color: white;
+    position: inherit;
+    top: 50px;
+    left: 10px;
+    border-radius: 30px;
+    padding: 15px 25px;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-weight: 500;
+}
+footer{
+    color: white;
+    background: rgb(77,97,75);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+
+}
+/* #kelp{
+    width: 1347px;
+    object-fit: cover;
+} */
+/* @media screen and (max-width: 480px){
+    #kelp{
+        object-fit: cover;
+    }
+
+}
+@media screen and (max-width: 920px){
+    #kelp{
+        object-fit: cover;
+    }
+
+}
+@media screen and (max-width: 1040px){
+    #kelp{
+        object-fit: cover;
+    }
+
+}
+@media screen and (max-width: 1320px){
+    #kelp{
+        object-fit: cover;
+    }
+
+} */
